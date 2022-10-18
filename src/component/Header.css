@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-right: -35px;
+  margin-left: 10px;
+}
+.header .header-left i{
+  margin-right: 10px;
+}
+.header .header-left img{
+  /* margin-right: 10px; */
+  height: 40px;
+  width:160px;
+}
+
+.header .header-middle {
+  display: flex;
+}
+.header .header-middle .glass {
+  border: 1px solid rgb(156, 156, 156);
+  width: 45px;
+  text-align: center;
+  background-color: rgb(184, 186, 186);
+  
+}
+.header .header-middle .glass i {
+  margin-top: 13px;
+  font-size: 20px;
+  
+}
+.header .header-middle .mic {
+  border: 1px solid rgb(124, 118, 118);
+  border-radius: 50%;
+  width: 45px;
+  text-align: center;
+  background-color: rgb(184, 186, 186);
+}
+.header .header-middle .mic i{
+  margin-top: 13px;
+  font-size: 20px;
+}
+.header .header-middle input{
+ width: 330px;
+}
+
+.header .header-right i,
+div {
+  margin-right: 10px;
+}
+.header .header-right {
+  display: flex;
+}
+.header .header-right i {
+  margin-top: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.header .header-right .profile {
+  border: 1px solid rgb(124, 118, 118);
+  border-radius: 50%;
+  width: 45px;
+  text-align: center;
+  background-color: rgb(184, 186, 186);
+}

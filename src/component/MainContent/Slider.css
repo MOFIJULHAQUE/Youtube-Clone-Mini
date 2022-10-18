@@ -1,0 +1,16 @@
+
+
+
+.itm{
+    /* border: 1px solid black; */
+    width: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(223, 218, 218);
+}
+.itm:hover{
+
+    background-color: rgb(255, 254, 254);
+  
+}
