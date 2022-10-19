@@ -1,16 +1,23 @@
-import React from "react";
-import download from "../ima-ge/download.png"
+// import download from "../ima-ge/download.png"
+
 function Header() {
+
+
+
+
   return (
     <>
       <div className="header">
         <div className="header-left">
           <i class="fa-solid fa-bars"></i>
-          <img src={download} alt="download"/>
+          {/* <img src={download} alt="download"/> */}
         </div>
 
         <div className="header-middle">
-          <input type="text" placeholder="Search" />
+          <input type="text" 
+          placeholder="Search"
+          
+          />
           <div className="glass">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
